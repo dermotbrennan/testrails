@@ -1,0 +1,4 @@
+%li
+  %h2.name= link_to story.name, story
+  .description= truncate_html(nl2br(story.description), :length => 100)
+  %p= link_to 'edit', edit_story_path(story)

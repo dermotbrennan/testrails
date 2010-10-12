@@ -1,0 +1,24 @@
+<feed xmlns:gphoto='http://schemas.google.com/photos/2007' xmlns:media='http://search.yahoo.com/mrss/'
+      xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns='http://www.w3.org/2005/Atom'>
+  <id>http://picasaweb.google.com/data/feed/api/user/dermotbrennan</id>
+<updated>2010-09-26T10:51:40.110Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#user'/>
+<title type='text'>dermot.brennan</title>
+<subtitle type='text'/>
+  <icon>http://lh4.ggpht.com/_Du5otp9RjAU/AAAAZ9B5ZuU/AAAAAAAAAAA/QcULTidEkvg/s64-c/dermot.brennan.jpg</icon>
+  <link href='http://picasaweb.google.com/data/feed/api/user/dermot.brennan' rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'/>
+  <link href='http://picasaweb.google.com/dermot.brennan' rel='alternate' type='text/html'/>
+  <link href='http://picasaweb.google.com/s/c/bin/slideshow.swf?host=picasaweb.google.com&amp;RGB=0x000000&amp;feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fdermot.brennan%3Falt%3Drss' rel='http://schemas.google.com/photos/2007#slideshow' type='application/x-shockwave-flash'/>
+  <link href='http://picasaweb.google.com/data/feed/api/user/dermot.brennan?start-index=1&amp;max-results=1000' rel='self' type='application/atom+xml'/>
+    <author><name>Dermot</name><uri>http://picasaweb.google.com/dermot.brennan</uri></author><generator uri='http://picasaweb.google.com/' version='1.00'>Picasaweb</generator>
+    <openSearch:totalResults>1</openSearch:totalResults><openSearch:startIndex>1</openSearch:startIndex><openSearch:itemsPerPage>1000</openSearch:itemsPerPage>
+    <gphoto:user>dermot.brennan</gphoto:user><gphoto:nickname>Dermot</gphoto:nickname>
+    <gphoto:thumbnail>http://lh4.ggpht.com/_Du5otp9RjAU/AAAAZ9B5ZuU/AAAAAAAAAAA/QcULTidEkvg/s64-c/dermot.brennan.jpg</gphoto:thumbnail>
+    <entry><id>http://picasaweb.google.com/data/entry/api/user/dermot.brennan/albumid/5484232918636202257</id>
+    <published>2010-06-18T07:00:00.000Z</published><updated>2010-09-26T10:51:40.110Z</updated>
+    <category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/photos/2007#album'/><title type='text'>KillineyBeachJune10</title>
+    <summary type='text'/><rights type='text'>public</rights>
+    <link href='http://picasaweb.google.com/data/feed/api/user/dermot.brennan/albumid/5484232918636202257' rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'/>
+    <link href='http://picasaweb.google.com/dermot.brennan/KillineyBeachJune10' rel='alternate' type='text/html'/>
+    <link href='http://picasaweb.google.com/data/entry/api/user/dermot.brennan/albumid/5484232918636202257' rel='self' type='application/atom+xml'/>
+    <author><name>Dermot</name><uri>http://picasaweb.google.com/dermot.brennan</uri></author><gphoto:id>5484232918636202257</gphoto:id>
+    <gphoto:name>KillineyBeachJune10</gphoto:name><gphoto:location/><gphoto:access>public</gphoto:access><gphoto:timestamp>1276844400000</gphoto:timestamp><gphoto:numphotos>21</gphoto:numphotos><gphoto:user>dermot.brennan</gphoto:user><gphoto:nickname>Dermot</gphoto:nickname><gphoto:commentingEnabled>true</gphoto:commentingEnabled><gphoto:commentCount>0</gphoto:commentCount><media:group><media:content medium='image' type='image/jpeg' url='http://lh3.ggpht.com/_Du5otp9RjAU/TBvoyGTQiRE/AAAAAAAADTo/MBiQwui7mck/KillineyBeachJune10.jpg'/><media:credit>Dermot</media:credit><media:description type='plain'/><media:keywords/><media:thumbnail height='160' url='http://lh3.ggpht.com/_Du5otp9RjAU/TBvoyGTQiRE/AAAAAAAADTo/MBiQwui7mck/s160-c/KillineyBeachJune10.jpg' width='160'/><media:title type='plain'>KillineyBeachJune10</media:title></media:group></entry></feed>

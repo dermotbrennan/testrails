@@ -1,0 +1,8 @@
+%li
+  %h2= scene.name
+  .description= nl2br(scene.description)
+  %p== #{scene.started_at} - #{scene.ended_at} in #{scene.location}
+  %p
+    == #{link_to 'add item', new_story_scene_item_path(scene, scene.story)} -
+    == #{link_to 'edit', edit_story_scene_path(scene, scene.story)} - 
+    == #{link_to 'delete', scene_path(scene), :method => :delete, :confirm => "Are you sure?"}

@@ -1,0 +1,16 @@
+= semantic_form_for(@scene) do |f|
+  = error_messages_for :scene
+  %fieldset
+    %ul
+      = f.input :story_id, :as => :hidden
+      = f.input :name, :required => true
+      = f.input :description, :as => :text
+      = f.input :location, :as => :string
+      - if !f.object.previous_scene.nil?
+        = f.input :transport_mode, :as => :select, :label => "How did you get here?"
+      = f.input :longitude, :as => :string
+      = f.input :latitude, :as => :string
+      = f.input :started_at, :as => :string
+      = f.input :ended_at, :as => :string
+      = f.input :rating, :as => :string
+      = f.commit_button f.object.new_record? ? 'Add Scene' : 'Update Scene', :button_html => { :id => nil }

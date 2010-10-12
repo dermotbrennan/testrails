@@ -1,0 +1,31 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  scene_id: 1
+  scene_type: MyString
+  name: MyString
+  description: MyText
+  location: MyString
+  previous_scene_id: 1
+  next_scene_id: 1
+  next_scene_transport_mode_id: 1
+  longitude: 9.99
+  latitude: 9.99
+  started_at: 2010-10-03 13:31:23
+  ended_at: 2010-10-03 13:31:23
+  rating: 1
+
+two:
+  scene_id: 1
+  scene_type: MyString
+  name: MyString
+  description: MyText
+  location: MyString
+  previous_scene_id: 1
+  next_scene_id: 1
+  next_scene_transport_mode_id: 1
+  longitude: 9.99
+  latitude: 9.99
+  started_at: 2010-10-03 13:31:23
+  ended_at: 2010-10-03 13:31:23
+  rating: 1

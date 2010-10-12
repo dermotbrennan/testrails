@@ -1,0 +1,15 @@
+%h1= @story.name
+
+
+= nl2br(@story.description)
+
+%hr
+
+- unless @story.scenes.empty?
+  %p= link_to 'Add scene', new_scene_path(:story_id => @story.id)
+  %ul#scenes= render :partial => 'scenes/scene', :collection => @story.scenes
+- else
+  %p
+    No scenes yet.
+    = link_to 'Create one', new_story_scene_path(:story_id => @story.id)
+    \.
