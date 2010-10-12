@@ -30,7 +30,7 @@ class WelcomeController < ApplicationController
     client.authsub_token = session[:token] if session[:token]
 
     feed = client.get('http://picasaweb.google.com/data/feed/api/user/dermotbrennan').to_xml
-    feed = client.get('http://picasaweb.google.com/data/feed/api/user/dermotbrennan/albumid/5484232918636202257').to_xml
+    #feed = client.get('http://picasaweb.google.com/data/feed/api/user/dermotbrennan/albumid/5484232918636202257').to_xml
 
     logger.debug feed.to_s.inspect
 
